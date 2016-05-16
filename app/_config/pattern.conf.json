@@ -1,0 +1,212 @@
+{
+    "patterns": [
+        {
+            "title": "Image Rendition 1",
+            "description": "Display image renditions with ID 1",
+            "filename": "ms-rendition-id-1",
+            "filepath": "atoms/images/ms-rendition-id-1.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Linked Headlines alternate",
+            "description": "",
+            "filename": "ms-rte-headlines-alt-linked",
+            "filepath": "atoms/rtestyles/ms-rte-headlines-alt-linked.hbs"
+        },
+        {
+            "title": "Image Rendition 2",
+            "description": "Display image renditions with ID 2",
+            "filename": "ms-rendition-id-2",
+            "filepath": "atoms/images/ms-rendition-id-2.hbs"
+        },
+        {
+            "title": "Image Rendition 4",
+            "description": "Display image renditions with ID 4",
+            "filename": "ms-rendition-id-4",
+            "filepath": "atoms/images/ms-rendition-id-4.hbs"
+        },
+        {
+            "title": "Image Rendition 3",
+            "description": "Display image renditions with ID 3",
+            "filename": "ms-rendition-id-3",
+            "filepath": "atoms/images/ms-rendition-id-3.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Linked Headlines",
+            "description": "",
+            "filename": "ms-rte-headlines-linked",
+            "filepath": "atoms/rtestyles/ms-rte-headlines-linked.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Unordered List",
+            "description": "",
+            "filename": "ms-rte-unordered-list",
+            "filepath": "atoms/rtestyles/ms-rte-unordered-list.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Headlines",
+            "description": "",
+            "filename": "ms-rte-headlines",
+            "filepath": "atoms/rtestyles/ms-rte-headlines.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Ordered List",
+            "description": "",
+            "filename": "ms-rte-ordered-list",
+            "filepath": "atoms/rtestyles/ms-rte-ordered-list.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Styles ",
+            "description": "",
+            "filename": "ms-rte-text-styles",
+            "filepath": "atoms/rtestyles/ms-rte-text-styles.hbs"
+        },
+        {
+            "title": "Default table style",
+            "description": "",
+            "filename": "ms-default-table-0",
+            "filepath": "atoms/tables/ms-default-table-0.hbs"
+        },
+        {
+            "title": "Table Style 5",
+            "description": "",
+            "filename": "ms-default-table-5",
+            "filepath": "atoms/tables/ms-default-table-5.hbs"
+        },
+        {
+            "title": "Rich Text Editor - Headlines alternated",
+            "description": "",
+            "filename": "ms-rte-headlines-alt",
+            "filepath": "atoms/rtestyles/ms-rte-headlines-alt.hbs"
+        },
+        {
+            "title": "Table Style 6",
+            "description": "",
+            "filename": "ms-default-table-6",
+            "filepath": "atoms/tables/ms-default-table-6.hbs"
+        },
+        {
+            "title": "Table Style 4",
+            "description": "",
+            "filename": "ms-default-table-4",
+            "filepath": "atoms/tables/ms-default-table-4.hbs"
+        },
+        {
+            "title": "Clear table style",
+            "description": "",
+            "filename": "ms-clear-table",
+            "filepath": "atoms/tables/ms-clear-table.hbs"
+        },
+        {
+            "title": "Headlines",
+            "description": "",
+            "filename": "h1",
+            "filepath": "atoms/rtestyles/h1.hbs"
+        },
+        {
+            "title": "Table Style 7",
+            "description": "",
+            "filename": "ms-default-table-7",
+            "filepath": "atoms/tables/ms-default-table-7.hbs"
+        },
+        {
+            "title": "Table Style 10",
+            "description": "",
+            "filename": "ms-default-table-10",
+            "filepath": "atoms/tables/ms-default-table-10.hbs"
+        },
+        {
+            "title": "Table light line",
+            "description": "",
+            "filename": "ms-light-line-table",
+            "filepath": "atoms/tables/ms-light-line-table.hbs"
+        },
+        {
+            "title": "Table Style 8",
+            "description": "",
+            "filename": "ms-default-table-8",
+            "filepath": "atoms/tables/ms-default-table-8.hbs"
+        },
+        {
+            "title": "Table Style 9",
+            "description": "",
+            "filename": "ms-default-table-9",
+            "filepath": "atoms/tables/ms-default-table-9.hbs"
+        },
+        {
+            "title": "test12",
+            "description": "",
+            "filename": "test12",
+            "filepath": "organism/test12.hbs"
+        },
+        {
+            "title": "test",
+            "description": "",
+            "filename": "test",
+            "filepath": "molecules/test.hbs"
+        },
+        {
+            "title": "This is just a template with a really long title",
+            "description": "",
+            "filename": "template-02",
+            "filepath": "templates/template-02.hbs"
+        },
+        {
+            "title": "template-04",
+            "description": "",
+            "filename": "template-04",
+            "filepath": "templates/template-04.hbs"
+        },
+        {
+            "title": "hello-world",
+            "description": "",
+            "filename": "hello-world",
+            "filepath": "templates/hello-world.hbs"
+        },
+        {
+            "title": "template-05",
+            "description": "",
+            "filename": "template-05",
+            "filepath": "templates/template-05.hbs"
+        },
+        {
+            "title": "template-03",
+            "description": "",
+            "filename": "template-03",
+            "filepath": "templates/template-03.hbs"
+        },
+        {
+            "title": "test-template",
+            "description": "",
+            "filename": "test-template",
+            "filepath": "atoms/tables/test-template.hbs"
+        },
+        {
+            "title": "Table style light band",
+            "description": "",
+            "filename": "ms-light-band-table",
+            "filepath": "atoms/tables/ms-light-band-table.hbs"
+        }
+    ],
+    "folder": [
+        {
+            "name": "atoms",
+            "description": "Contains all atom elements"
+        },
+        {
+            "name": "molecules",
+            "description": "Contains all molecule elements"
+        },
+        {
+            "name": "organism",
+            "description": "Contains all organism elements"
+        },
+        {
+            "name": "templates",
+            "description": "Contains all templates elements"
+        },
+        {
+            "name": "pages",
+            "description": "Contains all pages elements"
+        }
+    ]
+}

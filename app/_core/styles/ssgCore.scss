@@ -1,0 +1,166 @@
+@import 'colors';
+// Mixin
+@mixin hide {
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin show {
+    visibility: visible;
+    height: auto;
+    padding: 1em 1.5em;
+}
+
+@mixin clearfix {
+    &:after {
+        display: block;
+        clear: both;
+        content: ' ';
+    }
+}
+
+:root {
+    font-size: 16px;
+    @import 'ssgTocList';
+    @import 'ssgItem';
+    @import 'ssgStates';
+    body {
+        overflow: auto !important;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+    #ssg-font {
+        font-size: 16px;
+    }
+    // Base extends
+    %ssg-base-font {
+        font-family: helvetica neuen, hevelvetica, arial, sans-serif;
+    }
+    %base-button {
+        margin: .25em !important;
+        padding: 2px 6px 3px 6px;
+        color: #333;
+        border: 1px silver solid;
+        background-color: white;
+        &.active {
+            color: $blue;
+            border-color: $blue;
+        }
+    }
+    // Base modes
+    .animate {
+        max-width: 100% !important;
+        transition: 1s;
+        &-start {
+            width: 100%;
+        }
+    }
+    // Design
+    #ssg-toolbar {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        width: 100%;
+        padding: 0 .25em;
+        border-bottom: 1px black solid;
+        background-color: white;
+        @extend %ssg-base-font;
+    }
+    .ssg-patterns {
+        z-index: 0;
+        box-sizing: border-box;
+        min-width: 320px;
+        height: inherit !important;
+        min-height: 100%;
+        margin: 0 auto;
+        padding: 3em 0 10em 0;
+        background-color: white;
+    }
+    #ssg-wrapper {
+        position: absolute;
+        top: auto;
+        width: 100%;
+        min-height: 100%;
+        background-color: whitesmoke;
+    }
+    // Base Section
+    /// Default Button
+    .ssg-btn {
+        min-width: 0;
+        margin: .25em;
+        padding: 2px 6px 3px 6px;
+        border: 1px black solid;
+        background-color: white;
+        &.active {
+            @extend .active;
+        }
+        &[disabled] {
+            border-color: silver;
+            color: silver;
+        }
+    }
+    .ssg-input {
+        margin: 2px;
+        padding: 2px 6px 3px 6px;
+        border: 1px black solid;
+        veritcal-algin: baseline;
+        // Small button
+        &:focus {
+            border: 1px $red solid;
+            outline: $blue;
+        }
+        &-s {
+            width: 4em;
+            @extend .ssg-input;
+        }
+    }
+    /// Command Section
+    .ssg-cmd-section {
+        display: inline-block;
+        padding: .25em;
+        &:hover,
+        &:focus * {
+            color: white;
+            background-color: $blue;
+            // handle button style on hover
+            .ssg-btn:hover,
+            .ssg-btn.active {
+                color: white;
+                border-color: white;
+                background-color: $blue;
+            }
+        }
+    }
+    .ssg-pattern-label,
+    .ssg-pattern-name {
+        color: gray;
+        &:hover {
+            color: black;
+        }
+    }
+    .ssg-pattern-label {
+        padding-right: 10px;
+    }
+    #ssg-item-selector {
+        display: inline-block;
+        .item-title {
+            font-size: .8em;
+            line-height: 1.6em;
+            padding-top: 0.3em;
+            display: inline-block;
+            overflow: hidden;
+            width: 10em;
+            text-align: center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+    .ssg-toc-list {
+        font-size: 1em;
+    }
+}

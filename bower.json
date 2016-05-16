@@ -28,7 +28,6 @@
     "jquery": "~2.1.4",
     "modernizer": "~2.8.2",
     "susy": "~2.2.9",
-    "jQuery.dotdotdot": "jquery.dotdotdot#~1.7.4",
     "handlebars": "~4.0.5"
   }
 }

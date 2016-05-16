@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = (function() {
 
     // base path of app
     var basepath = './app/',
@@ -9,7 +9,28 @@ module.exports = function() {
     var config = {
         basepath: basepath,
         patternConfig: basepath + '_config/pattern.conf.json',
-        pattern: basepath + '_pattern/',
+        patterns: [
+            basepath + '_pattern/**/*.hbs'
+        ],
+        ssg: {
+            partials: [
+                basepath + '_pattern/**/*.hbs',
+                basepath + '_core/**/_*.hbs'
+            ],
+            templates: [
+                basepath + '_pattern/**/[^_]*.hbs'
+            ],
+            namespace: 'ssg.templates'
+        },
+        core: {
+            partials: [
+                basepath + '_core/**/_*.hbs'
+            ],
+            templates: [
+                basepath + '_core/**/[^_]*.hbs'
+            ],
+            namespace: 'ssgCore.templates'
+        },
         docs: basepath + '_pattern.docs/',
         configs: basepath + '_config/',
         preCompTemplates: 'precomp.js',
@@ -28,14 +49,21 @@ module.exports = function() {
         // Javascript for injection
         js: [
             temp + '**/*.js',
-            basepath + 'scripts/**.js'
+            basepath + 'scripts/**.js',
+            basepath + '_core/**/*.js'
+        ],
+        devjs: [
+            basepath + 'scripts/**.js',
+            './app/_core/scripts/*.js'
         ],
         html: [
             basepath + '**/*.html',
             basepath + '**/*.htm'
         ],
         // landing page
-        landingPages: [basepath + 'index.html']
+        landingPages: [basepath + 'index.html'],
+
+
     };
 
 
@@ -57,4 +85,4 @@ module.exports = function() {
 
     return config;
 
-}();
+}());

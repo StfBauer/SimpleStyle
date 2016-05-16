@@ -35,25 +35,33 @@
     "gulp-concat": "^2.6.0",
     "gulp-declare": "^0.3.0",
     "gulp-handlebars": "^4.0.0",
+    "gulp-if": "^2.0.0",
     "gulp-inject": "^3.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-merge": "^0.1.1",
     "gulp-plumber": "^1.0.1",
     "gulp-print": "^2.0.1",
-    "gulp-sass": "^2.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
     "gulp-wiredep": "0.0.0",
     "gulp-wrap": "^0.11.0",
     "handlebars": "^4.0.5",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
     "merge-stream": "^1.0.0",
+    "rename": "^1.0.3",
     "stream-browserify": "^2.0.1",
     "through2": "^2.0.0",
     "wiredep": "^3.0.0",
     "yargs": "^3.31.0"
   },
   "dependencies": {
-    "gulp-load-plugins": "^1.1.0"
+    "gulp-load-plugins": "^1.1.0",
+    "npm": "^3.5.3"
   }
 }

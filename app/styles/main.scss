@@ -1,6 +1,8 @@
 // bower:scss
+@import "bower_components/susy/sass/_susy.scss";
 // endbower
-
-body{
-	background-color: whitesmoke;
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+// font-family: 'Raleway', sans-serif;
+.ms-rtestate-field {
+    font-family: 'Raleway', sans-serif;
 }

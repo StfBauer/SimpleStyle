@@ -1,27 +1,45 @@
-<html  class="no-js" lang="">
+<html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bower:css -->
     <!-- endbower -->
-    <link href="/styles/main.css" type="text/stylesheet" rel="stylesheet">
+    <link href="/styles/ssgCore.css" type="text/css" rel="stylesheet">
+    <link href="/_core/styles/prism.css" type="text/css" rel="stylesheet">
+    <link href="/styles/sp-design.css" type="text/css" rel="stylesheet">
+    <link href="/styles/main.css" type="text/css" rel="stylesheet">
     <!-- build:js scripts/vendor/modernizr.js -->
     <!-- endbuild -->
+    <!-- inject:css -->
+    <!-- endinject -->
 </head>
-<body>
-    <div id="ssg-toolbar"></div>
-    <div id='ssg-preview'>
-        <div id="ssg-content"></div>
+
+<body class='ssg-body' id="ssg-font">
+    <div id="ssg-toolbar">
+        <div id="ssg-toc" class="ssg-toc-list"></div>
+        <div id="ssg-filter" class="ssg-cmd-section"></div>
+        <div id="ssg-vp-resizer" class="ssg-cmd-section"></div>
+        <div id="ssg-add-tools" class="ssg-cmd-section"></div>
+        <div id="ssg-item-selector" class="ssg-cmd-section"></div>
+    </div>
+    <div id="ssg-wrapper">
+        <div id='ssg-patterns' class="ssg-patterns">
+            <div id="ssg-patterns-inner" class="ssg-patterns-inner"></div>
+        </div>
     </div>
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/jQuery.dotdotdot/src/js/jquery.dotdotdot.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
     <!-- endbower -->
+    <script src="/scripts/main.js"></script>
     <!-- inject:js -->
-    <script src="/scripts/App.Templates.js"></script>
-    <script src="/scripts/sgcore.js"></script>
+    <script src="/_core/scripts/prism.js"></script>
+    <script src="/scripts/ssg.templates.js"></script>
+    <script src="/scripts/ssgCore.templates.js"></script>
+    <script src="/scripts/ssgCoreLib.js"></script>
     <!-- endinject -->
 </body>
+
 </html>

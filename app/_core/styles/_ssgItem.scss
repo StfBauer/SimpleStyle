@@ -1,0 +1,78 @@
+.ssg-item {
+    // margin: 0 auto;
+    width: auto;
+    margin: 4em auto;
+    &-header {
+        font-size: .8em;
+        background-color: white;
+        @extend %ssg-base-font;
+    }
+    &-title {
+        font-weight: bold;
+        line-height: 150%;
+        text-transform: uppercase;
+        border-bottom: 1px silver solid;
+    }
+    &-description {
+        line-height: 150%;
+        margin: .5em 0;
+        padding: .5em .5em;
+        background-color: whitesmoke;
+        @include hide;
+    }
+    &-code {
+        font-size: .8em;
+        border-radius: 0 !important;
+        @include hide;
+    }
+    .sample {
+        margin: 2em 0;
+    }
+    &.hide {
+        margin: 0;
+        @include hide;
+    }
+    &.isolate {
+        .ssg-item-header {
+            @include hide;
+        }
+        .ssg-item-code {
+            @include hide;
+        }
+        .sample {
+            border: 1px #dcdcdc solid;
+        }
+    }
+    &[data-cat='atoms'],
+    &[data-cat='molecules'],
+    &[data-cat='organism'] {
+        max-width: 1280px;
+    }
+    &[data-cat='templates'] {
+        .ssg-item {
+            &-header {
+                position: fixed;
+                top: 36px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            &-title {
+                padding: 0.5em 1em;
+            }
+            &-description {
+                padding: 0.5em 1em;
+            }
+            &-code.show{
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                padding: 1em;
+                min-height: 300px;
+            }
+        }
+        .sample {
+            margin-top: 73px;
+            border-top: 1px silver solid;
+        }
+    }
+}

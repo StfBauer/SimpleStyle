@@ -1,0 +1,152 @@
+{
+    "patterns": [
+        {
+            "title": "Headings",
+            "description": "Default Headlines",
+            "filename": "00-headings",
+            "filepath": "atoms/00-headings.hbs"
+        },
+        {
+            "title": "02-images",
+            "description": "",
+            "filename": "02-images",
+            "filepath": "atoms/02-images"
+        },
+        {
+            "title": "01-paragraph",
+            "description": "",
+            "filename": "01-paragraph",
+            "filepath": "atoms/01-paragraph.hbs"
+        },
+        {
+            "title": "02-blockquote",
+            "description": "",
+            "filename": "02-blockquote",
+            "filepath": "atoms/02-blockquote.hbs"
+        },
+        {
+            "title": "00-globals",
+            "description": "",
+            "filename": "00-globals",
+            "filepath": "atoms/00-globals"
+        },
+        {
+            "title": "03-inline-elements",
+            "description": "",
+            "filename": "03-inline-elements",
+            "filepath": "atoms/03-inline-elements.hbs"
+        },
+        {
+            "title": "01-text",
+            "description": "",
+            "filename": "01-text",
+            "filepath": "atoms/01-text"
+        },
+        {
+            "title": "04-time",
+            "description": "",
+            "filename": "04-time",
+            "filepath": "atoms/04-time.hbs"
+        },
+        {
+            "title": "03-lists",
+            "description": "",
+            "filename": "03-lists",
+            "filepath": "atoms/03-lists"
+        },
+        {
+            "title": "05-buttons",
+            "description": "",
+            "filename": "05-buttons",
+            "filepath": "atoms/05-buttons"
+        },
+        {
+            "title": "06-tables",
+            "description": "",
+            "filename": "06-tables",
+            "filepath": "atoms/06-tables"
+        },
+        {
+            "title": "07-test",
+            "description": "",
+            "filename": "07-test",
+            "filepath": "atoms/07-test.hbs"
+        },
+        {
+            "title": "Preformated text",
+            "description": "",
+            "filename": "05-preformatted-text",
+            "filepath": "atoms/05-preformatted-text.hbs"
+        },
+        {
+            "title": "rtestlyes",
+            "description": "",
+            "filename": "rtestlyes",
+            "filepath": "atoms/rtestlyes"
+        },
+        {
+            "title": "04-forms",
+            "description": "",
+            "filename": "04-forms",
+            "filepath": "atoms/04-forms"
+        },
+        {
+            "title": "00-first-organism",
+            "description": "",
+            "filename": "00-first-organism",
+            "filepath": "organism/00-first-organism.hbs"
+        },
+        {
+            "title": "00-molecule",
+            "description": "",
+            "filename": "00-molecule",
+            "filepath": "molecules/00-molecule.hbs"
+        },
+        {
+            "title": "01-templates",
+            "description": "",
+            "filename": "01-templates",
+            "filepath": "templates/01-templates.hbs"
+        },
+        {
+            "title": "01-molecule",
+            "description": "",
+            "filename": "01-molecule",
+            "filepath": "molecules/01-molecule.hbs"
+        },
+        {
+            "title": "tables",
+            "description": "",
+            "filename": "tables",
+            "filepath": "atoms/tables"
+        },
+        {
+            "title": "Horizontal Ruler",
+            "description": "Used for Horrizontal ruler",
+            "filename": "06-hr",
+            "filepath": "atoms/06-hr.hbs"
+        }
+    ],
+    "folder": [
+        {
+            "name": "atoms",
+            "description": "Contains all atom elements"
+        },
+        {
+            "name": "molecules",
+            "description": "Contains all molecule elements"
+        },
+        {
+            "name": "organism",
+            "description": "Contains all organism elements"
+        },
+        {
+            "name": "templates",
+            "description": "Contains all templates elements"
+        },
+        {
+            "name": "pages",
+            "description": "Contains all pages elements"
+        }
+    ]
+}
